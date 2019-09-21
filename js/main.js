@@ -33,9 +33,18 @@
 	///////////////////////////
 	// Btn nav collapse
 	$('#nav .nav-collapse').on('click', function() {
-		$('#nav').toggleClass('open');
+		$('#nav ').toggleClass('open');
+	
 	});
 
+
+		$('.overMe').on('click', function () {
+			$('#nav ').toggleClass('open');
+		});
+
+
+
+	
 	///////////////////////////
 	// Mobile dropdown
 	$('.has-dropdown a').on('click', function() {

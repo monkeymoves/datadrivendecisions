@@ -1529,7 +1529,7 @@ header {
 
 @media only screen and (max-width: 480px) {
   #portfolio [class*='col-xs'] {
-		  width:100%;
+		  width:50%;
 	}
 
   #numbers [class*='col-xs'] {
