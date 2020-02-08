@@ -1529,9 +1529,11 @@ header {
 
 @media only screen and (max-width: 480px) {
   #portfolio [class*='col-xs'] {
-		  width:50%;
+          width:33%;
 	}
-
+    h3  {
+        font-size: 11px;
+    }
   #numbers [class*='col-xs'] {
 		  width:100%;
 	}
