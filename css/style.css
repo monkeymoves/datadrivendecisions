@@ -640,7 +640,7 @@ header {
     color: #08789F;
     margin-bottom: 20px;
 }
-
+/* 
 .about:after {
     content: "";
     background-color: #1C1D21;
@@ -656,16 +656,16 @@ header {
 
 .about:hover:after {
     width: 100%;
-}
+} */
 
 .about h3 {
     -webkit-transition: 0.2s color;
     transition: 0.2s color;
 }
 
-.about:hover h3 {
+/* .about:hover h3 {
     color: #fff;
-}
+} */
 
 
 /*------------------------------------*\
@@ -802,7 +802,7 @@ header {
     color: #08789F;
     border-radius: 50%;
 }
-
+/* 
 .service:after {
     content: "";
     background-color: #1C1D21;
@@ -818,16 +818,16 @@ header {
 
 .service:hover:after {
     width: 100%;
-}
+} */
 
 .service h3 {
   -webkit-transition: 0.2s color;
   transition: 0.2s color;
 }
 
-.service:hover h3 {
+/* .service:hover h3 {
     color: #fff;
-}
+} */
 
 /*------------------------------------*\
 	Why choose us
