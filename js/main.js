@@ -34,9 +34,16 @@
 	// Btn nav collapse
 	$('#nav .nav-collapse').on('click', function() {
 		$('#nav ').toggleClass('open');
-	
+		$('.overlay').toggleClass('open');    
+
+		$('.overlay').click(function(){
+			$('.nav-collapse').trigger('click');
+			});
 	});
 
+
+	//
+	
 
 		$('.overMe').on('click', function () {
 			$('#nav ').toggleClass('open');
