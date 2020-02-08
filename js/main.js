@@ -34,9 +34,9 @@
 	// Btn nav collapse
 	$('#nav .nav-collapse').on('click', function() {
 		$('#nav ').toggleClass('open');
-		$('.overlay').toggleClass('open');    
+		$('.overlayDiv').toggleClass('open');    
 
-		$('.overlay').click(function(){
+		$('.overlayDiv').click(function(){
 			$('.nav-collapse').trigger('click');
 			});
 	});
