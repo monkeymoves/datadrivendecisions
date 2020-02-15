@@ -1557,7 +1557,8 @@ header {
     }
   #numbers [class*='col-xs'] {
 		  width:100%;
-	}
+    }
+   
 
   .contact-form .input:nth-child(1), .contact-form .input:nth-child(2) {
       width: 100%;
@@ -1573,6 +1574,9 @@ header {
       margin-left: 0px;
   }
 
+  #splashOverlayLogo{
+      width:45%;
+  }
 
 
   .blog-author .media .media-left {
