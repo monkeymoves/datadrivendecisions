@@ -644,11 +644,16 @@ header {
 \*------------------------------------*/
 
 .about {
-    position: relative;
-    text-align: center;
+    /* position: relative;
+    text-align: left;
     padding: 40px 20px;
     border: 1px solid #EEE;
+    margin: 15px 0px; */
+    
+    position: relative;
+    padding: 40px 20px 40px 70px;
     margin: 15px 0px;
+    border: 1px solid #EEE;
 }
 
 .about i {
